@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+}
+
+.main-div{
+    width: 80vw;
+    background-color: #EFF1F2;
+    box-shadow: 5px 5px 50px 1px darkgrey;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+
+.main-heading{
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    /* border: 2px solid red; */
+    padding: 1%;
+}
+
+.icon-todo{
+    margin: 1%;
+}
+
+.input-parent{
+    background-color: #FFFFFF;
+    border-bottom: 3px solid black;
+    width: 65vw;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+
+.input-todo{
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+    padding: 1%;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.date{
+    border: 1px solid black;
+    padding: 0.5%;
+    margin-left: 5%;
+}
+.add-button{
+    margin-left: 10%;
+    /* margin-top: 1%; */
+    background-color:#FFFFFF ;
+    border: none;
+    font-size: 1.5em;
+    /* padding: 0; */
+    
+
+}
+
+.hr{
+    width: 90%;
+    /* margin: 0 auto; */
+    margin-top: 4%;
+}
+
+.display-data{
+
+    background-color:#FFFFFF ;
+    height: 45vh;
+    width: 67vw;
+    /* margin-top: 5%; */
+    margin: 1% auto;
+    padding: 1%;
+
+}
+
+table{
+
+    width: 65vw;
+    margin: 0 auto;
+    background-color: navy;
+    padding: 0.5%;
+    color: #FFFFFF;
+}
+
+.table{
+    margin-top: 10%;
+    
+
+}
+
+.render-data{
+    background-color: #FFFFFF;
+    width: 65vw;
+    color: black;
+    /* margin-left: 10%; */
+}
+
+.data{
+    color: black;
+}
+
+
+td{
+    text-align: center;
+    padding: 0.5%;
+    
+
+}
+
+tr{
+    margin-top: 5%;
+}
+
+.first{
+    margin-right: 20%;
+    background-color: lawngreen;
+    color: yellow;
+    border: none;
+}
+.second{
+    margin-left: 20%;
+    background-color: black;
+    color: red;
+    border: none;
+}
+
+/* responsive */
+
+@media (max-width: 500px) {
+    
+input{
+    display: block;
+}
+
+.input-todo{
+
+    margin-left: 15%;
+    margin-top: 1%;
+
+}
+.date{
+    margin-left: 27%;
+    margin-top: 5%;
+    
+}
+
+.main-heading{
+    font-size: 1.5em;
+    /* margin-top: 10%; */
+    text-align: center;
+    text-decoration: underline;
+    /* border: 2px solid red; */
+    padding: 1%;
+}
+
+.icon-todo{
+    margin: 2%;
+}
+
+.add-button{
+    margin-left: 45%;
+    margin-top: 5%;
+    /* background-color: black; */
+}
+ 
+}
